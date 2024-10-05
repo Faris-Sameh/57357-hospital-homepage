@@ -1,0 +1,248 @@
+/* General styles for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* Styling for the navigation bar */
+.navbar{
+    height: 49px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+/* Styling for the navbar heading */
+.navbar h3{
+    color: white;
+    margin-left: 17px;
+}
+
+/* Styling for navbar links */
+.navbar a{
+    color: white;
+    margin: 10px; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+/* Styling for the header content */
+.header-content{
+    height: 600px;
+    background-image: url(../img/back.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Styling for the main header text */
+.header-content h1{
+    color: white;
+    font-size: 32px; 
+    letter-spacing: 1.5px; 
+    margin-bottom: 10px; 
+}
+
+/* Styling for the header paragraph */
+.header-content p{
+    color: white; 
+    font-family: none;
+    letter-spacing: 2.2px;
+    margin-bottom: 10px;
+}
+
+/* Styling for buttons in the header */
+.header-content button{
+    padding: 10px 23px; 
+    font-size: 19px; 
+    background-color: #6f0f41; 
+    border: none;
+    border-radius: 3px; 
+    color: white; 
+}
+
+/* Styling for the second button in the header */
+.header-content button:nth-of-type(2){
+    background-color: #2c9279; 
+}
+
+/* Styling for the section title */
+.section-home h2{
+    letter-spacing: 1.5px; 
+    margin-top: 26px; 
+    text-align: center; 
+    font-size: 27px; 
+    margin-bottom: 10px; 
+}
+
+/* Styling for the horizontal line under the section title */
+.section-home hr{
+    width: 200px;
+    margin: auto; 
+    margin-top: 10px; 
+    background-color: red; 
+    height: 3px; 
+    margin-bottom: 40px;
+}
+
+/* Styling for the content inside the section */
+.section-content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+/* Styling for images in the section */
+.section-content img{
+    width: 40%; 
+    margin-bottom: 100px;
+}
+
+/* Styling for paragraphs in the section */
+.section-content p{
+    width: 40%; 
+    font-size: 30px; 
+    text-align: center; 
+}
+
+/* Styling for the content items section */
+.content-items {
+    display: flex;
+    background-color: #f9f9f9; 
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+/* Styling for individual items */
+.Item {
+    width: 48%;
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 2px solid #e8e8e8;
+}
+
+/* Styling for images inside items */
+.Item img {
+    width: 80%; 
+    height: 400px; 
+    margin-top: 20px;
+}
+
+/* Styling for paragraphs inside items */
+.Item p {
+    text-align: center; 
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Styling for the footer content */
+.footer-content{
+    height: 375px;
+    background-image: url(../img/contact\ us.gif); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the footer heading */
+.footer-content h2{
+    text-align: center; 
+    font-size: 29px;
+    margin-top: 34px; 
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Styling for the form inside the footer */
+.footer-content form {
+    display: flex;      
+    flex-direction: column;   
+    align-items: center; 
+    width: 100%;  
+}
+
+/* Styling for inputs inside the form */
+.footer-content form input {
+    width: 80%; 
+    margin-bottom: 24px; 
+    border: none; 
+    border-radius: 3px; 
+    padding: 10px 16px; 
+    font-size: 19px; 
+}
+
+/* Styling for the submit button inside the form */
+.footer-content form input:nth-of-type(3) {
+    background-color: #212121; 
+    display: block;
+    margin: auto;
+    width: 100px;
+    border-radius: 0px;
+    color: white;
+    padding: 10px;
+}
+
+/* Styling for the textarea inside the form */
+.footer-content form textarea {
+    width: 80%; 
+    margin-bottom: 24px; 
+    border: none; 
+    border-radius: 3px; 
+    padding: 10px 16px; 
+    font-size: 19px;
+}
+
+/* Styling for the email section in the footer */
+.Email{
+    height: 270px;
+    background-image: url(../img/html-color-codes-color-tutorials-hero-00e10b1f.jpg); 
+    background-size: cover;
+}
+
+/* Styling for the email heading */
+.Email h2{
+    text-align: center; 
+    color: white;
+    font-size: 32px; 
+    letter-spacing: 1px; 
+}
+
+/* Styling for the form inside the email section */
+.Email form{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/* Styling for inputs inside the email form */
+.Email form input{
+    width: 80%; 
+    margin-bottom: 24px; 
+    border: none; 
+    border-radius: 3px; 
+    padding: 10px 16px; 
+    font-size: 19px; 
+    margin-top: 70px; 
+}
+
+/* Styling for the submit button inside the email form */
+.Email form input:nth-of-type(2){
+    background-color: #212121;
+    color: white;
+    padding: 11px;
+    width: 95px;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 18px;
+}
